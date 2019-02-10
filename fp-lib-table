@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MCU_Headers)(type KiCad)(uri "/home/sean/Documents/Kicad Stuff/connectors/footprints/w_conn_misc.pretty")(options "")(descr ""))
+  (lib (name CL05B104KA51PEC)(type KiCad)(uri "/home/sean/Documents/Kicad Stuff/UL_0.1uF_Cap/footprints.pretty")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "/home/sean/Documents/Kicad Stuff/UL_0.01uF_Cap/footprints.pretty")(options "")(descr ""))
+)
