@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HuskyA100_Nucleo_Shield-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -60,110 +61,66 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 5C0735EF
-P 7450 3150
-F 0 "J1" H 7530 3192 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 3101 50  0000 L CNN
-F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" H 7450 3150 50  0001 C CNN
-F 3 "~" H 7450 3150 50  0001 C CNN
-	1    7450 3150
-	1    0    0    -1  
+P 4800 2850
+F 0 "J1" H 4880 2892 50  0000 L CNN
+F 1 "Conn_01x03" H 4880 2801 50  0000 L CNN
+F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" H 4800 2850 50  0001 C CNN
+F 3 "~" H 4800 2850 50  0001 C CNN
+	1    4800 2850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 5C0737C1
-P 7450 3650
-F 0 "J2" H 7530 3692 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 3601 50  0000 L CNN
-F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" H 7450 3650 50  0001 C CNN
-F 3 "~" H 7450 3650 50  0001 C CNN
-	1    7450 3650
-	1    0    0    -1  
+P 4800 3350
+F 0 "J2" H 4880 3392 50  0000 L CNN
+F 1 "Conn_01x03" H 4880 3301 50  0000 L CNN
+F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" H 4800 3350 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5C073803
-P 3000 3300
-F 0 "J3" H 2920 2875 50  0000 C CNN
-F 1 "Conn_01x04" H 2920 2966 50  0000 C CNN
-F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" H 3000 3300 50  0001 C CNN
-F 3 "~" H 3000 3300 50  0001 C CNN
-	1    3000 3300
-	-1   0    0    1   
+P 2900 3200
+F 0 "J3" H 2820 2775 50  0000 C CNN
+F 1 "Conn_01x04" H 2820 2866 50  0000 C CNN
+F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" H 2900 3200 50  0001 C CNN
+F 3 "~" H 2900 3200 50  0001 C CNN
+	1    2900 3200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5C073BBE
-P 2600 4050
-F 0 "J4" H 2520 3625 50  0000 C CNN
-F 1 "Conn_01x04" H 2520 3716 50  0000 C CNN
-F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" H 2600 4050 50  0001 C CNN
-F 3 "~" H 2600 4050 50  0001 C CNN
-	1    2600 4050
-	-1   0    0    1   
+P 2600 3850
+F 0 "J4" H 2520 3425 50  0000 C CNN
+F 1 "Conn_01x04" H 2520 3516 50  0000 C CNN
+F 2 "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" H 2600 3850 50  0001 C CNN
+F 3 "~" H 2600 3850 50  0001 C CNN
+	1    2600 3850
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 3500 4450 3400
-Wire Wire Line
-	4450 3400 3200 3400
-Wire Wire Line
-	4500 3600 4500 3300
-Wire Wire Line
-	4500 3300 3200 3300
-Wire Wire Line
-	4500 3600 4450 3600
-Wire Wire Line
-	4450 3700 4600 3700
-Wire Wire Line
-	4450 3800 4500 3800
-Wire Wire Line
-	3000 4050 2800 4050
-Wire Wire Line
-	2800 4150 2800 4400
-Wire Wire Line
-	3000 4050 3000 4350
-Wire Wire Line
-	5700 3150 7050 3150
-Wire Wire Line
-	7050 3150 7050 3050
-Wire Wire Line
-	7050 3050 7250 3050
-Wire Wire Line
-	7250 3550 6250 3550
-Wire Wire Line
-	6250 3550 6250 3250
-Wire Wire Line
-	6250 3250 5700 3250
-Wire Wire Line
-	4500 4350 4500 3800
-Wire Wire Line
-	3000 4350 4500 4350
-Wire Wire Line
-	4600 4400 4600 3700
-Wire Wire Line
-	2800 4400 4600 4400
-Text GLabel 4150 3900 0    50   Input ~ 0
+Text GLabel 4450 3900 2    50   Input ~ 0
 5V
-Text GLabel 4150 4000 0    50   Input ~ 0
+Text GLabel 4450 4000 2    50   Input ~ 0
 GND
-Text GLabel 4150 4100 0    50   Input ~ 0
+Text GLabel 4450 4100 2    50   Input ~ 0
 GND
-Text GLabel 4150 3800 0    50   Input ~ 0
+Text GLabel 4450 3800 2    50   Input ~ 0
 3.3V
 Text GLabel 2800 3950 2    50   Input ~ 0
 3.3V
-Text GLabel 3200 3200 2    50   Input ~ 0
+Text GLabel 3100 3300 2    50   Input ~ 0
 3.3V
-Text GLabel 7250 3750 0    50   Input ~ 0
+Text GLabel 5000 3250 2    50   Input ~ 0
 GND
-Text GLabel 7250 3250 0    50   Input ~ 0
-GND
-Text GLabel 7250 3150 0    50   Input ~ 0
+Text GLabel 5000 3350 2    50   Input ~ 0
 3.3V
-Text GLabel 7250 3650 0    50   Input ~ 0
-3.3V
-Text GLabel 3200 3100 2    50   Input ~ 0
+Text GLabel 3100 3400 2    50   Input ~ 0
 GND
-Text GLabel 2800 3850 2    50   Input ~ 0
+Text GLabel 2800 4050 2    50   Input ~ 0
 GND
 Text GLabel 5700 4600 2    50   Input ~ 0
 GND
@@ -317,4 +274,44 @@ Wire Wire Line
 Connection ~ 5800 2500
 Wire Wire Line
 	5800 2500 6500 2500
+Wire Wire Line
+	2800 3750 3800 3750
+Wire Wire Line
+	3800 3700 4150 3700
+Wire Wire Line
+	3950 3800 4150 3800
+Wire Wire Line
+	2800 3850 3950 3850
+Wire Wire Line
+	3950 3800 3950 3850
+Wire Wire Line
+	3800 3700 3800 3750
+Wire Wire Line
+	3100 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3600
+Wire Wire Line
+	3550 3600 4150 3600
+Wire Wire Line
+	4150 3500 3750 3500
+Wire Wire Line
+	3750 3500 3750 3100
+Wire Wire Line
+	3750 3100 3100 3100
+Text GLabel 5000 2850 2    50   Input ~ 0
+3.3V
+Text GLabel 5000 2950 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5000 2750 5300 2750
+Wire Wire Line
+	5300 2750 5300 3150
+Wire Wire Line
+	5300 3150 5400 3150
+Wire Wire Line
+	5000 3450 5300 3450
+Wire Wire Line
+	5300 3450 5300 3250
+Wire Wire Line
+	5300 3250 5400 3250
 $EndSCHEMATC
