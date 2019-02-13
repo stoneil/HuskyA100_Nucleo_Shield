@@ -300,7 +300,7 @@
     (add_net "Net-(CN9-Pad9)")
   )
 
-  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" (layer F.Cu) (tedit 5C649827) (tstamp 5C3D39E4)
+  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" locked (layer F.Cu) (tedit 5C649827) (tstamp 5C3D39E4)
     (at 120 117.5 270)
     (path /5C0737C1)
     (fp_text reference J2 (at 0 8.75 270) (layer F.SilkS)
@@ -321,7 +321,7 @@
       (net 9 "Net-(CN7-Pad3)") (clearance 0.2))
   )
 
-  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" locked (layer F.Cu) (tedit 5C649882) (tstamp 5C3D3A96)
+  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" (layer F.Cu) (tedit 5C649882) (tstamp 5C3D3A96)
     (at 98.75 117.5 270)
     (path /5C073803)
     (fp_text reference J3 (at 0 8.75 270) (layer F.SilkS)
@@ -344,7 +344,7 @@
       (net 26 "Net-(CN8-Pad1)") (clearance 0.2))
   )
 
-  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" (layer F.Cu) (tedit 5C649882) (tstamp 5C3D372E)
+  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 4 circuit" locked (layer F.Cu) (tedit 5C649882) (tstamp 5C3D372E)
     (at 98.75 27.5 90)
     (path /5C073BBE)
     (fp_text reference J4 (at 0 8.75 90) (layer F.SilkS)
@@ -1150,7 +1150,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" (layer F.Cu) (tedit 5C649827) (tstamp 5C71B1AA)
+  (module "Molex_Mini-Lock:Molex Mini-Lock Horizontal Header 3 circuit" locked (layer F.Cu) (tedit 5C649827) (tstamp 5C71B1AA)
     (at 120 27.5 90)
     (path /5C0735EF)
     (fp_text reference J1 (at 0 8.75 90) (layer F.SilkS)
