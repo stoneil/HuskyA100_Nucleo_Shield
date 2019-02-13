@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sean/snap/kicad-snap/common/HuskyA100_Nucleo_Shield/HuskyA100_Nucleo_Shield.sch)
-    (date "Wed 13 Feb 2019 12:48:33 AM EST")
+    (date "Wed 13 Feb 2019 05:25:37 PM EST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
