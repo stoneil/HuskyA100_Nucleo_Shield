@@ -110,17 +110,17 @@ Text GLabel 4450 4100 2    50   Input ~ 0
 GND
 Text GLabel 4450 3800 2    50   Input ~ 0
 3.3V
-Text GLabel 2800 3950 2    50   Input ~ 0
+Text GLabel 2800 4050 2    50   Input ~ 0
 3.3V
-Text GLabel 3100 3300 2    50   Input ~ 0
+Text GLabel 3100 3400 2    50   Input ~ 0
 3.3V
-Text GLabel 5000 3250 2    50   Input ~ 0
+Text GLabel 5000 3450 2    50   Input ~ 0
 GND
 Text GLabel 5000 3350 2    50   Input ~ 0
 3.3V
-Text GLabel 3100 3400 2    50   Input ~ 0
+Text GLabel 3100 3300 2    50   Input ~ 0
 GND
-Text GLabel 2800 4050 2    50   Input ~ 0
+Text GLabel 2800 3950 2    50   Input ~ 0
 GND
 Text GLabel 4150 5000 0    50   Input ~ 0
 GND
@@ -158,20 +158,8 @@ Wire Wire Line
 	3750 3100 3100 3100
 Text GLabel 5000 2850 2    50   Input ~ 0
 3.3V
-Text GLabel 5000 2950 2    50   Input ~ 0
+Text GLabel 5000 2750 2    50   Input ~ 0
 GND
-Wire Wire Line
-	5000 2750 5300 2750
-Wire Wire Line
-	5300 2750 5300 3150
-Wire Wire Line
-	5300 3150 5400 3150
-Wire Wire Line
-	5000 3450 5300 3450
-Wire Wire Line
-	5300 3450 5300 3250
-Wire Wire Line
-	5300 3250 5400 3250
 Wire Wire Line
 	2950 2200 3200 2200
 Wire Wire Line
@@ -350,4 +338,10 @@ Text GLabel 5700 5700 2    50   Input ~ 0
 GND
 Text GLabel 5700 4600 2    50   Input ~ 0
 GND
+Wire Wire Line
+	5000 3150 5000 2950
+Wire Wire Line
+	5000 3150 5400 3150
+Wire Wire Line
+	5000 3250 5400 3250
 $EndSCHEMATC
